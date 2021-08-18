@@ -14,14 +14,14 @@ function Like() {
 
   useEffect(() => {
     axios
-      .get(uri)
-      .then((res) => {
-        updateLike(res.data.data);
-        upadteBtn(false);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+        .get(uri)
+        .then((res) => {
+          updateLike(res.data.data);
+          upadteBtn(false);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
   }, []);
 
   function clickHandler() {
@@ -34,13 +34,13 @@ function Like() {
     }
 
     axios
-      .post(postUri)
-      .then((res) => {
-        console.log(res.data.status);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+        .post(postUri)
+        .then((res) => {
+          console.log(res.data.status);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
 
     setTimeout(() => {
       updateClass("far fa-heart");
@@ -48,11 +48,11 @@ function Like() {
   }
 
   return (
-    <Nav.Item className="like-item">
-      <Button className="like-btn" onClick={clickHandler} disabled={btnState}>
-        <i className={likeClass} style={{ color: "#fb6fcd" }}></i> {numLike}
-      </Button>
-    </Nav.Item>
+      <Nav.Item className="like-item">
+        <Button className="like-btn" onClick={clickHandler} disabled={btnState}>
+          <i className={likeClass} style={{ color: "#fb6fcd" }}></i> {numLike}
+        </Button>
+      </Nav.Item>
   );
 }
 
