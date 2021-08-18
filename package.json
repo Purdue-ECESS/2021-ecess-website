@@ -1,26 +1,47 @@
 {
-  "name": "purdue-ecess-website",
+  "name": "ecess-website-source-code",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://purdue-ecess.org",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "bootstrap": "^4.5.3",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.13.0",
+    "react-icons": "^4.2.0",
+    "react-parallax-tilt": "^1.4.68",
+    "react-particles-js": "^3.5.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "tsparticles": "^1.33.3",
+    "typewriter-effect": "^2.18.0"
+  },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
+    "start": "react-scripts start",
+    "build": "CI=false && react-scripts build && mv build out",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "github": "mkdir -p out/.github/workflows && cp deployment.yml out/.github/workflows"
   },
-  "dependencies": {
-    "@material-ui/core": "^4.11.4",
-    "bootstrap": "4.6.0",
-    "next": "^10.0.4",
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.6.0",
-    "react-dom": "^17.0.1",
-    "react-responsive-carousel": "^3.2.18"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "devDependencies": {
-    "@material-ui/icons": "^4.11.2",
-    "@types/react": "^17.0.6",
-    "typescript": "^4.2.4"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
