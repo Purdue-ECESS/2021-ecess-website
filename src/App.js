@@ -33,7 +33,7 @@ function App() {
           <Navbar />
           <ScrollToTop />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route exact path="/" exact component={Home} />
             <Route path="/board" component={Board} />
             <Route path="/apply" component={Apply} />
             <Route path="/committees" component={Committees} />
