@@ -6,7 +6,7 @@ function WebDev() {
         <Card className="quote-card-view">
             <Card.Body>
                 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                    <strong className="yellow">Website Manager</strong>
+                    <strong className="yellow">Website Development</strong>
                 </h1>
                 <h1 style={{ fontSize: "1.2em", paddingBottom: "10px" }}>
                     <strong className="yellow">Head: Naveen Vivek</strong>
@@ -16,7 +16,7 @@ function WebDev() {
                 </h1>
                 <blockquote className="blockquote mb-0">
                     <p style={{ textAlign: "justify" }}>
-                        The Website Manager Committee updates the
+                        The Website Development Committee updates the
                         ECESS website with announcements and new
                         information regarding
                         the ECESS committees.

@@ -1,16 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../../Assets/ecess-logo.svg";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+// import ecessLogo2 from "../../Assets/ecess-logo-2.png";
 
 function Home2() {
   return (
       <Container fluid className="home-about-section" id="about">
         <Container>
-          <Row>
+          <Row style={{ justifyContent: "justify"}}>
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
                 Who Are We?
@@ -21,35 +17,6 @@ function Home2() {
                 rigorous academic program, exploring educational and professional post-baccalaureate options
                 and making the most out of their Purdue Experience.
               </p>
-            </Col>
-            <Col md={4} className="myAvtar">
-              <img src={logo} className="img-fluid" alt="avatar" />
-            </Col>
-          </Row>
-          <Row>
-            <Col md={12} className="home-about-social">
-              <ul className="home-about-social-links">
-                <li className="social-icons">
-                  <a
-                      href="https://github.com/ecesspurdue"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                  >
-                    <AiFillGithub />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                      href="https://www.instagram.com/purdue_ecess/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                  >
-                    <AiFillInstagram />
-                  </a>
-                </li>
-              </ul>
             </Col>
           </Row>
         </Container>

@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ApplyCard from "./ApplyCard";
+import ContactCard from "./ContactCard";
 import Particle from "../Particle";
 
-function Apply() {
+function Contact() {
     return (
         <Container fluid className="about-section">
             <Particle />
             <Container>
                 <h1 style={{ fontSize: "4em", paddingBottom: "20px" }}>
-                    <strong className="yellow">Interest Form</strong>
+                    <strong className="yellow">Contact Us</strong>
                 </h1>
                 <Row style={{ justifyContent: "center", padding: "10px" }}>
                     <Col
@@ -20,7 +20,7 @@ function Apply() {
                             paddingBottom: "50px",
                         }}
                     >
-                        <ApplyCard />
+                        <ContactCard />
                     </Col>
                 </Row>
             </Container>
@@ -28,4 +28,4 @@ function Apply() {
     );
 }
 
-export default Apply;
+export default Contact;

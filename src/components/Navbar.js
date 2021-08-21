@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/ecess-logo-1.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -101,6 +101,19 @@ function NavBar() {
                     onClick={() => updateExpanded(false)}
                 >
                   <CgFileDocument style={{ marginBottom: "2px" }} /> Calendar
+                </Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item>
+                <Nav.Link
+                    as={Link}
+                    to="/contact"
+                    onClick={() => updateExpanded(false)}
+                >
+                  <AiOutlineFundProjectionScreen
+                      style={{ marginBottom: "2px" }}
+                  />{" "}
+                  Contact
                 </Nav.Link>
               </Nav.Item>
 

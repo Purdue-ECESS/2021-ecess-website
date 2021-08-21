@@ -283,17 +283,17 @@ html {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #ffff00;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #ffff00 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #ffff00 !important;
 }
 
 @media (max-width: 767px) {
@@ -506,9 +506,7 @@ html {
 }
 
 .card-img-top {
-  padding: 20px !important;
-  opacity: 0.8 !important;
-  border-radius: 10px !important;
+  width: 75%;
 }
 
 .blog-img {

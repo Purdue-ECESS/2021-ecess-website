@@ -6,14 +6,29 @@ import { BiLinkExternal } from "react-icons/bi";
 function BoardCard(props) {
     return (
         <Card className="project-card-view">
-            <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+            <Card.Img variant="top" src={props.imgPath} width="75%" />
             <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
-                <Card.Text style={{ textAlign: "left" }}>
-                    {props.major}
+                <Card.Title>
+                    <strong className="yellow">
+                        {props.name}
+                    </strong>
+                </Card.Title>
+                <Card.Text style={{ textAlign: "center" }}>
+                    <strong className="yellow">
+                        {props.title}
+                    </strong>
                 </Card.Text>
                 <Card.Text style={{ textAlign: "left" }}>
-                    {props.quote}
+                    Major: {props.major}
+                </Card.Text>
+                <Card.Text style={{ textAlign: "left" }}>
+                    Hometown: {props.hometown}
+                </Card.Text>
+                <Card.Text style={{ textAlign: "left" }}>
+                    Favorite Class: {props.fav_class}
+                </Card.Text>
+                <Card.Text style={{ textAlign: "left" }}>
+                    Quote: "{props.quote}"
                 </Card.Text>
                 <Button variant="primary" href={props.linkedin} target="_blank">
                     <BiLinkExternal /> &nbsp;

@@ -4,6 +4,10 @@ import FacultyOutreach from "./FacultyOutreach"
 import CommunityOutreach from "./CommunityOutreach"
 import WebDev from "./WebDev"
 import ECEA from "./ECEA"
+import Spark from "./Spark"
+import WECE from "./WECE"
+import Publicity from "./Publicity"
+import Social from "./Social"
 import Particle from "../Particle";
 
 function Committee() {
@@ -27,7 +31,10 @@ function Committee() {
             <WebDev />
             <ECEA />
             <CommunityOutreach />
-            {/* TODO: Add other committees cards here */}
+            <Spark />
+            <WECE />
+            <Publicity />
+            <Social />
           </Col>
         </Row>
       </Container>

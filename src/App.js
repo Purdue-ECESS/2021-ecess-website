@@ -5,8 +5,10 @@ import Home from "./components/Home/Home";
 import Committees from "./components/Committees/Committee";
 import Calendar from "./components/Calendar/Calendar";
 import Board from "./components/Board/Board";
+import ECESSFooter from "./components/ECESSFooter";
 import Footer from "./components/Footer";
 import Apply from "./components/Apply/Apply";
+import Contact from "./components/Contact/Contact"
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
@@ -38,7 +40,9 @@ function App() {
             <Route path="/apply" component={Apply} />
             <Route path="/committees" component={Committees} />
             <Route path="/calendar" component={Calendar} />
+            <Route path="/contact" component={Contact} />
           </Switch>
+          <ECESSFooter />
           <Footer />
         </div>
       </Router>
