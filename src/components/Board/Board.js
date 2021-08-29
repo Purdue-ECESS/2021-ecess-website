@@ -13,6 +13,7 @@ import Alexandra from "../../Assets/BoardPics/Alexandra_Sichterman.jpeg"
 import Amita from "../../Assets/BoardPics/Amita_Pandey.jpeg"
 import Denae from "../../Assets/BoardPics/Denae_Galloway.jpeg"
 import Sara from "../../Assets/BoardPics/Sara_Hui.jpeg"
+import Edmund from "../../Assets/BoardPics/Edmund_Leung.png"
 
 import Sam2 from "../../Assets/BoardPics/Samantha_Unger.jpeg"
 // import LeighAnn from "../../Assets/BoardPics/Sam_Dlott.jpeg"
@@ -23,10 +24,17 @@ function Board() {
       <Container fluid className="project-section">
         <Particle />
         <Container>
-          <h1 className="project-heading">
-            Our <strong className="yellow">Executive</strong> Board
-          </h1>
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <h1 style={{ fontSize: "4em", paddingBottom: "10px" }}>
+            <strong className="yellow">Executive Board</strong>
+        </h1>
+          <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
+
+          <p className="yellow">
+          "The purpose of the Electrical and Computer Engineering Student Society is to provide ECE
+          students with an educational and professional community aimed at preparing students for a
+          rigorous academic program, exploring educational and professional post-baccalaureate options
+          and making the most out of their Purdue Experience."
+          </p>
 
           <Col md={4} className="project-card">
               <BoardCard
@@ -34,7 +42,8 @@ function Board() {
                   isBlog={false}
                   name="Ryan Villarreal"
                   title="President"
-                  major="CompE, Brain & Behavior Sciences, Spring 2022"
+                  contact="villar10@purdue.edu"
+                  major="CompE & BBS, Spring 2022"
                   hometown="Oswego, IL"
                   quote="The risk I took was calculated, but man, am I bad at math."
                   fav_class="ECE 36200"
@@ -48,10 +57,11 @@ function Board() {
                   isBlog={false}
                   name="Denae Galloway"
                   title="Vice President"
+                  contact="gallowd@purdue.edu"
                   major="EE, Spring 2023"
-                  hometown="TBD"
-                  quote="TBD"
-                  fav_class="TBD"
+                  hometown="Saint John, IN"
+                  quote="Believe you can and you're halfway there."
+                  fav_class="ECE 270"
                   linkedin="https://www.linkedin.com/in/denae-galloway/"
               />
             </Col>
@@ -62,7 +72,8 @@ function Board() {
                   isBlog={false}
                   name="Alexandra E. Sichterman"
                   title="Secretary & Treasurer"
-                  major="Major: CompE, Spring 2022"
+                  major="CompE, Spring 2022"
+                  contact="asichter@purdue.edu"
                   hometown="Muscatine, IA"
                   quote="There are night owls and there are early birds, but I am a permanently exhausted pigeon."
                   fav_class="ECE 36200"
@@ -76,6 +87,7 @@ function Board() {
                   isBlog={false}
                   name="Alyssa DeLouise"
                   title="Publicity - Chair"
+                  contact="adelouis@purdue.edu"
                   major="EE, Fall 2022"
                   hometown="Old Bridge, NJ"
                   quote="Let courage carry you."
@@ -90,6 +102,7 @@ function Board() {
                   isBlog={false}
                   name="Naveen Vivek"
                   title="Website Development - Chair"
+                  contact="vivek@purdue.edu"
                   major="EE, Spring 2022"
                   hometown="Chennai, India"
                   quote="Quotes are overrated."
@@ -104,6 +117,7 @@ function Board() {
                   isBlog={false}
                   name="Andrew Lake"
                   title="Faculty Outreach - Chair"
+                  contact="lake14@purdue.edu"
                   major="EE, Spring 2022"
                   hometown="Flint, Michigan"
                   quote="Don't force it, just get a bigger hammer."
@@ -118,6 +132,7 @@ function Board() {
                   isBlog={false}
                   name="Altay Atik"
                   title="Spark Challenge - Chair"
+                  contact="aatik@purdue.edu"
                   major="EE, Spring 2023"
                   hometown="Istanbul, Turkey"
                   quote="Simple can be harder than complex."
@@ -132,6 +147,7 @@ function Board() {
                   isBlog={false}
                   name="Sam Dlott"
                   title="Social Committee - Chair"
+                  contact="sdlott@purdue.edu"
                   major="CompE, Spring 2023"
                   hometown="Plano, TX"
                   quote="Always ready to give it 100%."
@@ -146,10 +162,11 @@ function Board() {
                   isBlog={false}
                   name="Sara Hui"
                   title="ECE Ambassadors - Chair"
+                  contact="hui12@purdue.edu"
                   major="EE, Spring 2022"
                   hometown="Honolulu, HI"
-                  quote="TBD"
-                  fav_class="TBD"
+                  quote="Roll with the punches!"
+                  fav_class="ECE 44000"
                   linkedin="https://www.linkedin.com/in/sara-hui-purdue/"
               />
             </Col>
@@ -160,10 +177,11 @@ function Board() {
                   isBlog={false}
                   name="Amita Pandey"
                   title="Community Outreach - Chair"
+                  contact="pandey26@purdue.edu"
                   major="CompE, Spring 2022"
-                  hometown="TBD"
-                  quote="TBD"
-                  fav_class="TBD"
+                  hometown="Fort Collins, CO"
+                  quote="I'm not lazy, I prefer to call it selective participation."
+                  fav_class="ECE 40400"
                   linkedin="https://www.linkedin.com/in/amita-pandey/"
               />
             </Col>
@@ -174,11 +192,27 @@ function Board() {
                   isBlog={false}
                   name="Sam Unger"
                   title="WECE - Chair"
+                  contact="TBD"
                   major="CompE, Fall 2021"
                   hometown="Orange Park, FL"
                   quote="TBD"
                   fav_class="TBD"
                   linkedin="https://www.linkedin.com/in/samantha-unger12/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Edmund}
+                  isBlog={false}
+                  name="Edmund Leung"
+                  title="Faculty Outreach - Co-chair"
+                  contact="leung55@purdue.edu"
+                  major="EE, Spring 2024"
+                  hometown="Olmsted Falls, OH"
+                  quote="'When the son of the deposed king of Nigeria emails you directly, asking for help, you help! His father ran the freaking country! Okay?' - Michael Scott"
+                  fav_class="ECE 27000"
+                  linkedin="https://www.linkedin.com/in/edmund-leung-4511191b7/"
               />
             </Col>
 

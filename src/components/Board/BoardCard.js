@@ -19,6 +19,9 @@ function BoardCard(props) {
                     </strong>
                 </Card.Text>
                 <Card.Text style={{ textAlign: "left" }}>
+                    Contact: {props.contact}
+                </Card.Text>
+                <Card.Text style={{ textAlign: "left" }}>
                     Major: {props.major}
                 </Card.Text>
                 <Card.Text style={{ textAlign: "left" }}>

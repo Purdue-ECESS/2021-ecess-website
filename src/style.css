@@ -163,8 +163,8 @@ html {
 
 .navbar-nav .nav-link {
   color: white !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
 }
 
 .nav-link {
@@ -287,12 +287,12 @@ html {
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
+  font-size: 3.5em !important;
   color: #ffff00 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
+  font-size: 3.5em !important;
   color: #ffff00 !important;
 }
 

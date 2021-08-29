@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import Committees from "./components/Committees/Committee";
 import Calendar from "./components/Calendar/Calendar";
+import Newsletter from "./components/Newsletter/Newsletter";
 import Board from "./components/Board/Board";
 import ECESSFooter from "./components/ECESSFooter";
 import Footer from "./components/Footer";
@@ -40,6 +41,7 @@ function App() {
             <Route path="/apply" component={Apply} />
             <Route path="/committees" component={Committees} />
             <Route path="/calendar" component={Calendar} />
+            <Route path="/newsletter" component={Newsletter} />
             <Route path="/contact" component={Contact} />
           </Switch>
           <ECESSFooter />
