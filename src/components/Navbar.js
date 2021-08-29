@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/ecess-logo-1.png";
+import logo from "../Assets/ecess-logo-2.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -11,6 +11,10 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillCalendar,
+  AiFillCheckCircle,
+  AiFillMail,
+  AiFillThunderbolt
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -38,7 +42,7 @@ function NavBar() {
       >
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} className="img-fluid logo" alt="brand" />
+            <AiFillThunderbolt style={{ marginBottom: "2px" }} />
           </Navbar.Brand>
           <Navbar.Toggle
               aria-controls="responsive-navbar-nav"
@@ -74,7 +78,7 @@ function NavBar() {
                     to="/apply"
                     onClick={() => updateExpanded(false)}
                 >
-                  <AiOutlineFundProjectionScreen
+                  <AiFillCheckCircle
                       style={{ marginBottom: "2px" }}
                   />{" "}
                   Apply
@@ -100,7 +104,17 @@ function NavBar() {
                     to="/calendar"
                     onClick={() => updateExpanded(false)}
                 >
-                  <CgFileDocument style={{ marginBottom: "2px" }} /> Calendar
+                  <AiFillCalendar style={{ marginBottom: "2px" }} /> Calendar
+                </Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item>
+                <Nav.Link
+                    as={Link}
+                    to="/newsletter"
+                    onClick={() => updateExpanded(false)}
+                >
+                  <CgFileDocument style={{ marginBottom: "2px" }} /> Newsletter
                 </Nav.Link>
               </Nav.Item>
 
@@ -110,7 +124,7 @@ function NavBar() {
                     to="/contact"
                     onClick={() => updateExpanded(false)}
                 >
-                  <AiOutlineFundProjectionScreen
+                  <AiFillMail
                       style={{ marginBottom: "2px" }}
                   />{" "}
                   Contact

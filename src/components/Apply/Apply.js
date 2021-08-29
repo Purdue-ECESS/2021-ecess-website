@@ -8,7 +8,7 @@ function Apply() {
         <Container fluid className="about-section">
             <Particle />
             <Container>
-                <h1 style={{ fontSize: "4em", paddingBottom: "20px" }}>
+                <h1 style={{ fontSize: "4em", paddingBottom: "10px" }}>
                     <strong className="yellow">Interest Form</strong>
                 </h1>
                 <Row style={{ justifyContent: "center", padding: "10px" }}>
