@@ -9,7 +9,6 @@ import Board from "./components/Board/Board";
 import ECESSFooter from "./components/ECESSFooter";
 import Footer from "./components/Footer";
 import Apply from "./components/Apply/Apply";
-import Contact from "./components/Contact/Contact"
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
@@ -42,7 +41,6 @@ function App() {
             <Route path="/committees" component={Committees} />
             <Route path="/calendar" component={Calendar} />
             <Route path="/newsletter" component={Newsletter} />
-            <Route path="/contact" component={Contact} />
           </Switch>
           <ECESSFooter />
           <Footer />

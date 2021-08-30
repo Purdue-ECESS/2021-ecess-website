@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/ecess-logo-2.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -13,7 +12,6 @@ import {
   AiOutlineUser,
   AiFillCalendar,
   AiFillCheckCircle,
-  AiFillMail,
   AiFillThunderbolt
 } from "react-icons/ai";
 
@@ -115,19 +113,6 @@ function NavBar() {
                     onClick={() => updateExpanded(false)}
                 >
                   <CgFileDocument style={{ marginBottom: "2px" }} /> Newsletter
-                </Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item>
-                <Nav.Link
-                    as={Link}
-                    to="/contact"
-                    onClick={() => updateExpanded(false)}
-                >
-                  <AiFillMail
-                      style={{ marginBottom: "2px" }}
-                  />{" "}
-                  Contact
                 </Nav.Link>
               </Nav.Item>
 
