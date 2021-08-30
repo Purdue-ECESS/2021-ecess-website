@@ -13,10 +13,8 @@ function Home() {
           <Container className="home-content">
 
           <Row>
-              <Col className="home-header">
-                <div style={{ padding: 1, textAlign: "center" }}>
-                  <Type />
-                </div>
+              <Col className="home-header" style = {{alignContent: "center"}}>
+                  <Type style = {{width: "100%"}}/>
               </Col>
 
           </Row>
