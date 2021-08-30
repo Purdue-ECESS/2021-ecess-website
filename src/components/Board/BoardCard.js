@@ -33,11 +33,11 @@ function BoardCard(props) {
                 <Card.Text style={{ textAlign: "left" }}>
                     Quote: "{props.quote}"
                 </Card.Text>
-                <Button variant="primary" href={props.linkedin} target="_blank">
-                    <BiLinkExternal /> &nbsp;
+            </Card.Body>
+            <Button variant="primary" href={props.linkedin} target="_blank">
+                <BiLinkExternal /> &nbsp;
                     {"LinkedIn"}
                 </Button>
-            </Card.Body>
         </Card>
     );
 }

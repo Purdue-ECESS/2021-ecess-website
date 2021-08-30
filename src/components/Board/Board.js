@@ -39,7 +39,6 @@ function Board() {
           <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Ryan}
-                  isBlog={false}
                   name="Ryan Villarreal"
                   title="President"
                   contact="villar10@purdue.edu"
@@ -54,7 +53,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Denae}
-                  isBlog={false}
                   name="Denae Galloway"
                   title="Vice President"
                   contact="gallowd@purdue.edu"
@@ -69,7 +67,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Alexandra}
-                  isBlog={false}
                   name="Alexandra E. Sichterman"
                   title="Secretary & Treasurer"
                   major="CompE, Spring 2022"
@@ -84,7 +81,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Alyssa}
-                  isBlog={false}
                   name="Alyssa DeLouise"
                   title="Publicity - Chair"
                   contact="adelouis@purdue.edu"
@@ -99,7 +95,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Naveen}
-                  isBlog={false}
                   name="Naveen Vivek"
                   title="Website Development - Chair"
                   contact="vivek@purdue.edu"
@@ -114,7 +109,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Andrew}
-                  isBlog={false}
                   name="Andrew Lake"
                   title="Faculty Outreach - Chair"
                   contact="lake14@purdue.edu"
@@ -129,7 +123,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Altay}
-                  isBlog={false}
                   name="Altay Atik"
                   title="Spark Challenge - Chair"
                   contact="aatik@purdue.edu"
@@ -144,7 +137,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Sam}
-                  isBlog={false}
                   name="Sam Dlott"
                   title="Social Committee - Chair"
                   contact="sdlott@purdue.edu"
@@ -159,7 +151,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Sara}
-                  isBlog={false}
                   name="Sara Hui"
                   title="ECE Ambassadors - Chair"
                   contact="hui12@purdue.edu"
@@ -174,11 +165,10 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Amita}
-                  isBlog={false}
                   name="Amita Pandey"
                   title="Community Outreach - Chair"
                   contact="pandey26@purdue.edu"
-                  major="CompE, Spring 2022"
+                  major="CompE, Fall 2021"
                   hometown="Fort Collins, CO"
                   quote="I'm not lazy, I prefer to call it selective participation."
                   fav_class="ECE 40400"
@@ -189,7 +179,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Sam2}
-                  isBlog={false}
                   name="Sam Unger"
                   title="WECE - Chair"
                   contact="TBD"
@@ -204,7 +193,6 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Edmund}
-                  isBlog={false}
                   name="Edmund Leung"
                   title="Faculty Outreach - Co-chair"
                   contact="leung55@purdue.edu"

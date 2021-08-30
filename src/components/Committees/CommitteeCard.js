@@ -15,7 +15,7 @@ function CommitteeCard(props) {
                 <strong className="yellow">Email: {props.email}</strong>
             </h1>
             <blockquote className="blockquote mb-0">
-                <p style={{ textAlign: "justify" }}>
+                <p style={{ textAlign: "center" }}>
                 {props.description}
                 </p>
             </blockquote>

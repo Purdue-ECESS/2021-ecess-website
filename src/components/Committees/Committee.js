@@ -8,7 +8,7 @@ function Committee() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <h1 style={{ fontSize: "4em", paddingBottom: "20px" }}>
+        <h1 style={{ fontSize: "4em", paddingBottom: "10px" }}>
             <strong className="yellow">Committees</strong>
         </h1>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -16,7 +16,7 @@ function Committee() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
+              paddingTop: "50px",
               paddingBottom: "50px",
             }}
           >
