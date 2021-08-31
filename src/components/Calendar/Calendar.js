@@ -14,7 +14,7 @@ function CalendarPage() {
             <Container>
                 <div class="responsiveCal">
                     <iframe src={"https://calendar.google.com/calendar/embed?src=lffgqv326096a6s1hnl136gtd4%40group.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis"}
-                            title="ECESS Calendar" style={{width: '100%', height: '100vh'}}/>
+                            scrolling="yes" title="ECESS Calendar"/>
                 </div>
             </Container>
         </Container>
