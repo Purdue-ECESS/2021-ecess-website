@@ -8,10 +8,10 @@ function Committee() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <h1 style={{ fontSize: "4em", paddingBottom: "10px" }}>
+        <h1 style={{ fontSize: "4em", paddingBottom: "0px" }}>
             <strong className="yellow">Committees</strong>
         </h1>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "center", padding: "5px" }}>
           <Col
             md={7}
             style={{
@@ -57,11 +57,14 @@ function Committee() {
           />
 
           <CommitteeCard
-              name="Multicultural"
-              head="Minh Tran"
-              email="tran142@purdue.edu"
+              name="Multicultural Affairs"
+              head="Claire Poukey"
+              email="cpoukey@purdue.edu"
               description="
-              TBD
+              The Multicultural Affairs Committee strives to create an inclusive environment for ECE 
+              students of all backgrounds, cultures, and identities. We promote instersctional awareness 
+              and empower students through cultural and social events as well as professional development 
+              opportunities.
               "
           />
 

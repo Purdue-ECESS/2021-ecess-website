@@ -16,8 +16,9 @@ import Sara from "../../Assets/BoardPics/Sara_Hui.jpeg"
 import Edmund from "../../Assets/BoardPics/Edmund_Leung.png"
 import Sam2 from "../../Assets/BoardPics/Samantha_Unger.jpeg"
 import Hope from "../../Assets/BoardPics/Hope_Post.png" 
-// import LeighAnn from "../../Assets/BoardPics/Sam_Dlott.jpeg"
-// import Giselle from "../../Assets/BoardPics/Sam_Dlott.jpeg"
+import Claire from "../../Assets/BoardPics/Claire_Poukey.jpg" 
+// import LeighAnn from "../../Assets/BoardPics/Leigh_Ann.jpeg"
+// import Giselle from "../../Assets/BoardPics/Giselle_Bender.jpeg"
 
 function Board() {
   return (
@@ -215,6 +216,20 @@ function Board() {
                   quote="When the son of the deposed king of Nigeria emails you directly, asking for help, you help! His father ran the freaking country! Okay? - Michael Scott"
                   fav_class="ECE 27000"
                   linkedin="https://www.linkedin.com/in/edmund-leung-4511191b7/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Claire}
+                  name="Claire Poukey"
+                  title="Multicultural Affairs - Chair"
+                  contact="cpoukey@purdue.edu"
+                  major="CompE, Fall 2023"
+                  hometown="Highland Park, IL"
+                  quote="The city is flying, we're fighting an army of robots... and I have a bow and arrow. None of this makes sense. - Clint Barton (MCU)"
+                  fav_class="ECE 26400"
+                  linkedin="https://www.linkedin.com/in/clairepoukey/"
               />
             </Col>
 
