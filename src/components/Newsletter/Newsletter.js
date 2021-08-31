@@ -13,7 +13,8 @@ function NewsletterPage() {
             </Container>
             <Container>
                 <div>
-                <iframe width="100%" height="800" src="https://www.smore.com/cgqhs-call-out-for-ecess?embed=1" title="Call Out for ECESS" frameborder="0"></iframe>
+                <iframe width="100%" height="900" src={"https://www.smore.com/cgqhs-call-out-for-ecess?embed=1"}
+                            scrolling="yes" title="ECESS Newsletter"/>
                 </div>
             </Container>
         </Container>

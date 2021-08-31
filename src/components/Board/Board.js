@@ -14,8 +14,8 @@ import Amita from "../../Assets/BoardPics/Amita_Pandey.jpeg"
 import Denae from "../../Assets/BoardPics/Denae_Galloway.jpeg"
 import Sara from "../../Assets/BoardPics/Sara_Hui.jpeg"
 import Edmund from "../../Assets/BoardPics/Edmund_Leung.png"
-
 import Sam2 from "../../Assets/BoardPics/Samantha_Unger.jpeg"
+import Hope from "../../Assets/BoardPics/Hope_Post.png" 
 // import LeighAnn from "../../Assets/BoardPics/Sam_Dlott.jpeg"
 // import Giselle from "../../Assets/BoardPics/Sam_Dlott.jpeg"
 
@@ -179,14 +179,28 @@ function Board() {
             <Col md={4} className="project-card">
               <BoardCard
                   imgPath={Sam2}
-                  name="Sam Unger"
+                  name="Samantha Unger"
                   title="WECE - Chair"
-                  contact="TBD"
-                  major="CompE, Fall 2021"
-                  hometown="Orange Park, FL"
-                  quote="TBD"
-                  fav_class="TBD"
+                  contact="unger12@purdue.edu"
+                  major="CompE, Spring 2022"
+                  hometown="Jacksonville, FL"
+                  quote="Shoot for the moon and if you miss you’ll end up amongst the stars!"
+                  fav_class="ECE 36200"
                   linkedin="https://www.linkedin.com/in/samantha-unger12/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Hope}
+                  name="Hope Post"
+                  title="WECE - Co-chair"
+                  contact="posth@purdue.edu"
+                  major="CompE, Spring 2023"
+                  hometown="Westford, MA"
+                  quote="Ask for what you want and be prepared to get it. - Maya Angelou"
+                  fav_class="ECE 20875"
+                  linkedin="https://www.linkedin.com/in/hope-post/"
               />
             </Col>
 
@@ -198,7 +212,7 @@ function Board() {
                   contact="leung55@purdue.edu"
                   major="EE, Spring 2024"
                   hometown="Olmsted Falls, OH"
-                  quote="'When the son of the deposed king of Nigeria emails you directly, asking for help, you help! His father ran the freaking country! Okay?' - Michael Scott"
+                  quote="When the son of the deposed king of Nigeria emails you directly, asking for help, you help! His father ran the freaking country! Okay? - Michael Scott"
                   fav_class="ECE 27000"
                   linkedin="https://www.linkedin.com/in/edmund-leung-4511191b7/"
               />

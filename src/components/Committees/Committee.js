@@ -93,7 +93,9 @@ function Committee() {
               head="Sam Unger"
               email="unger12@purdue.edu"
               description="
-              TBD
+              WECE is a committee aimed at connecting women majoring in ECE. We 
+              have social and outreach events aimed at promoting friendship and 
+              making connections in the West Lafayette/ Greater Lafayette area. 
               "
           />
 
