@@ -5,6 +5,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 
+import { SiDiscord } from "react-icons/si";
+
 function ECESSFooter() {
   return (
     <Container fluid className="footer">
@@ -34,6 +36,16 @@ function ECESSFooter() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://discord.gg/g2frztsC8W"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiDiscord />
               </a>
             </li>
           </ul>
