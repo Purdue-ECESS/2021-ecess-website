@@ -16,7 +16,13 @@ function ApplyCard() {
             <Button variant="primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdJiB-CY9fsSLUF1b204HNTQDN59xNzK5JYUp2Z7KxtybsWGg/viewform" target="_blank">
                     <BiLinkExternal /> &nbsp;
                     {"Apply Here!"}
-              </Button>
+            </Button>
+            <p style={{ textAlign: "center" }}>
+            </p>
+            <Button variant="primary" href="https://docs.google.com/presentation/d/1i4AwbaDw5L7QFtBHDrKgNnoDBB-9ouSqy-YSwgM5oHM/edit?usp=sharing" target="_blank">
+                  <BiLinkExternal /> &nbsp;
+                  {"Callout Slides!"}
+            </Button>
           </blockquote>
         </Card.Body>
       </Card>
