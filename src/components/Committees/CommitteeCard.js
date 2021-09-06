@@ -2,11 +2,14 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 
 function CommitteeCard(props) {
+    const {link, name} = props;
     return (
         <Card className="quote-card-view">
         <Card.Body>
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                <strong className="yellow">{props.name}</strong>
+                <strong className="yellow">
+                    {link ? name : (<a href="{link}">name</a>)}
+                </strong>
             </h1>
             <h1 style={{ fontSize: "1.2em", paddingBottom: "10px" }}>
                 <strong className="yellow">Head: {props.head}</strong>
