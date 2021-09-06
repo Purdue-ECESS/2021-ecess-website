@@ -48,6 +48,7 @@ function Committee() {
               name="ECE Ambassadors"
               head="Sara Hui"
               email="hui12@purdue.edu"
+              link={"https://www.purdue-ecess.org/ecea"}
               description="
               Ambassadors answer questions from prospective students and families by giving tours 
               and presentations to incoming students. They also help T2M students make the correct 
@@ -95,6 +96,7 @@ function Committee() {
               name="Women in ECE"
               head="Sam Unger"
               email="unger12@purdue.edu"
+              link={"https://purduewece5.wixsite.com/purduewece"}
               description="
               WECE is a committee aimed at connecting women majoring in ECE. We 
               have social and outreach events aimed at promoting friendship and 
