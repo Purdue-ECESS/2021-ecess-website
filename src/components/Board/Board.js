@@ -17,7 +17,7 @@ import Edmund from "../../Assets/BoardPics/Edmund_Leung.png"
 import Sam2 from "../../Assets/BoardPics/Samantha_Unger.jpeg"
 import Hope from "../../Assets/BoardPics/Hope_Post.png" 
 import Claire from "../../Assets/BoardPics/Claire_Poukey.jpg" 
-// import LeighAnn from "../../Assets/BoardPics/Leigh_Ann.jpeg"
+import LeighAnn from "../../Assets/BoardPics/Leigh_Ann.png"
 // import Giselle from "../../Assets/BoardPics/Giselle_Bender.jpeg"
 
 function Board() {
@@ -230,6 +230,20 @@ function Board() {
                   quote="The city is flying, we're fighting an army of robots... and I have a bow and arrow. None of this makes sense. - Clint Barton (MCU)"
                   fav_class="ECE 26400"
                   linkedin="https://www.linkedin.com/in/clairepoukey/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={LeighAnn}
+                  name="Leigh Ann Fabries"
+                  title="ECESS Advisor"
+                  major="Advising!"
+                  contact="lpittsfo@purdue.edu"
+                  hometown="Middletown, IN"
+                  quote="You change the world when you change your mind"
+                  fav_class="ECE 29401"
+                  linkedin="https://www.linkedin.com/in/leigh-ann-fabriès-96189735"
               />
             </Col>
 
