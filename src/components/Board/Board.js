@@ -18,7 +18,7 @@ import Sam2 from "../../Assets/BoardPics/Samantha_Unger.jpeg"
 import Hope from "../../Assets/BoardPics/Hope_Post.png" 
 import Claire from "../../Assets/BoardPics/Claire_Poukey.jpg" 
 import LeighAnn from "../../Assets/BoardPics/Leigh_Ann.png"
-// import Giselle from "../../Assets/BoardPics/Giselle_Bender.jpeg"
+import Giselle from "../../Assets/BoardPics/Giselle_Bender.png"
 
 function Board() {
   return (
@@ -244,6 +244,21 @@ function Board() {
                   quote="You change the world when you change your mind"
                   fav_class="ECE 29401"
                   linkedin="https://www.linkedin.com/in/leigh-ann-fabriès-96189735"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Giselle}
+                  name="Giselle Salina-Bender"
+                  title="ECESS Advisor"
+                  major="Advising!"
+                  contact="gsalina@purdue.edu"
+                  hometown="San Juan, PR"
+                  quote="For there is ALWAYS light, if only we are brave enough to see it, 
+                  if only we are brave enough to BE it. – Amanda Gorman"
+                  fav_class="ECE 29401"
+                  linkedin="https://www.linkedin.com/in/giselle-bender-407417aa"
               />
             </Col>
 
