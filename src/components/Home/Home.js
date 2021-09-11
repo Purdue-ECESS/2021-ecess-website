@@ -27,8 +27,8 @@ function Home() {
 
           <div style={{ padding: 1, textAlign: "center" }}>
             <p>
-              Email: ecess@purdue.edu <br/>
-              Address: EE 232, 475 Northwestern Avenue, West Lafayette IN - 47907
+            Email: ecess@purdue.edu <br/>
+            Address: EE 232, 475 Northwestern Avenue, West Lafayette IN - 47907
             </p>
           </div>
               
