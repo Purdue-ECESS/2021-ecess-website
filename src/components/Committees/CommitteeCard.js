@@ -16,7 +16,7 @@ function CommitteeCard(props) {
                 <strong className="yellow">Head: {props.head}</strong>
             </h1>
             <h1 style={{ fontSize: "1.2em", paddingBottom: "10px" }}>
-                <strong className="yellow">Email: {props.email}</strong>
+                <strong className="yellow">Email: <a href="mailto:{props.email}"> {props.email}</a></strong>
             </h1>
             {link ?
                 <Button variant="primary" href={link} target="_blank">
