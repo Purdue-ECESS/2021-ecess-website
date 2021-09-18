@@ -8,7 +8,7 @@ import Naveen from "../../Assets/BoardPics/Naveen_Vivek.jpeg";
 import Ryan from "../../Assets/BoardPics/Ryan_Villarreal.jpeg";
 import Altay from "../../Assets/BoardPics/Altay_Atik.jpeg";
 import Andrew from "../../Assets/BoardPics/Andrew_Lake.jpeg";
-import Sam from "../../Assets/BoardPics/Sam_Dlott.jpeg"
+import Jack from "../../Assets/BoardPics/Jack_Brewer.png"
 import Alexandra from "../../Assets/BoardPics/Alexandra_Sichterman.jpeg"
 import Amita from "../../Assets/BoardPics/Amita_Pandey.jpeg"
 import Denae from "../../Assets/BoardPics/Denae_Galloway.jpeg"
@@ -19,6 +19,7 @@ import Hope from "../../Assets/BoardPics/Hope_Post.png"
 import Claire from "../../Assets/BoardPics/Claire_Poukey.jpg" 
 import LeighAnn from "../../Assets/BoardPics/Leigh_Ann.png"
 import Giselle from "../../Assets/BoardPics/Giselle_Bender.png"
+import Akshaj from "../../Assets/BoardPics/Akshaj_Prasannakumar.png"
 
 function Board() {
   return (
@@ -137,15 +138,15 @@ function Board() {
 
             <Col md={4} className="project-card">
               <BoardCard
-                  imgPath={Sam}
-                  name="Sam Dlott"
+                  imgPath={Jack}
+                  name="Jack Brewer"
                   title="Social Committee - Chair"
-                  contact="sdlott@purdue.edu"
-                  major="CompE, Spring 2023"
-                  hometown="Plano, TX"
-                  quote="Always ready to give it 100%."
-                  fav_class="ECE 20875"
-                  linkedin="https://www.linkedin.com/in/sdlott/"
+                  contact="sbrewe116@purdue.edu"
+                  major="CompE, Spring 2024"
+                  hometown="St. Louis, MO"
+                  quote="Always Max Jump"
+                  fav_class="ECE 26400"
+                  linkedin="https://linkedin.com/"
               />
             </Col>
 
@@ -174,6 +175,20 @@ function Board() {
                   quote="I'm not lazy, I prefer to call it selective participation."
                   fav_class="ECE 40400"
                   linkedin="https://www.linkedin.com/in/amita-pandey/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Akshaj}
+                  name="Akshaj Prasannakumar"
+                  title="Community Outreach - Co-Chair"
+                  contact="aprasan@purdue.edu"
+                  major="CompE, Spring 2022"
+                  hometown="Aurora, IL"
+                  quote="Do or do not. There is no try. - Yoda"
+                  fav_class="ECE 33700"
+                  linkedin="https://www.linkedin.com/in/akshaj-prasannakumar-733704176/"
               />
             </Col>
 
