@@ -13,7 +13,7 @@ function Home() {
           <Container className="home-content">
 
           <Row>
-              <Col className="home-header" style = {{alignContent: "center"}}>
+              <Col className="home-header" style = {{textAlign: "center"}}>
                   <Type style = {{width: "100%"}}/>
               </Col>
 
