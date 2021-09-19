@@ -17,8 +17,7 @@ function ApplyCard() {
                     <BiLinkExternal /> &nbsp;
                     {"Apply Here!"}
             </Button>
-            <p style={{ textAlign: "center" }}>
-            </p>
+            &nbsp;
             <Button variant="primary" href="https://docs.google.com/presentation/d/1i4AwbaDw5L7QFtBHDrKgNnoDBB-9ouSqy-YSwgM5oHM/edit?usp=sharing" target="_blank">
                   <BiLinkExternal /> &nbsp;
                   {"Callout Slides!"}
