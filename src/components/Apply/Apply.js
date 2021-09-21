@@ -16,7 +16,7 @@ function Apply() {
                         md={7}
                         style={{
                             justifyContent: "center",
-                            paddingTop: "30px",
+                            paddingTop: "0px",
                             paddingBottom: "50px",
                         }}
                     >

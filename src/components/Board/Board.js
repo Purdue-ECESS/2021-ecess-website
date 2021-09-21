@@ -25,7 +25,7 @@ function Board() {
       <Container fluid className="project-section">
         <Particle />
         <Container>
-        <h1 style={{ fontSize: "4em", paddingBottom: "10px" }}>
+        <h1 style={{ fontSize: "4em", paddingBottom: "17px" }}>
             <strong className="yellow">Executive Board</strong>
         </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
