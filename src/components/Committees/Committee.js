@@ -11,12 +11,12 @@ function Committee() {
         <h1 style={{ fontSize: "4em", paddingBottom: "0px" }}>
             <strong className="yellow">Committees</strong>
         </h1>
-        <Row style={{ justifyContent: "center", padding: "5px" }}>
+        <Row style={{ justifyContent: "center", padding: "0px" }}>
           <Col
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "50px",
+              paddingTop: "0px",
               paddingBottom: "50px",
             }}
           >
