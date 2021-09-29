@@ -85,6 +85,7 @@ function Committee() {
               name="Spark Challenge"
               head="Altay Atik"
               email="aatik@purdue.edu"
+              link={"https://www.purdue-ecess.org/spark"}
               description="
               The Spark Challenge Committee is responsible for planning and 
               moderating the semi-annual senior design project competition Spark 
