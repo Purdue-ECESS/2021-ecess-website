@@ -6,7 +6,6 @@ import Committees from "./components/Committees/Committee";
 import Calendar from "./components/Calendar/Calendar";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Board from "./components/Board/Board";
-import ECESSFooter from "./components/ECESSFooter";
 import Footer from "./components/Footer";
 import Apply from "./components/Apply/Apply";
 
@@ -42,7 +41,6 @@ function App() {
             <Route path="/calendar" component={Calendar} />
             <Route path="/newsletter" component={Newsletter} />
           </Switch>
-          <ECESSFooter />
           <Footer />
         </div>
       </Router>
