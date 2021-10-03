@@ -12,6 +12,20 @@ function Committee() {
             <strong className="yellow">Committees</strong>
         </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
+            
+          <Col md={4} className="project-card">
+            <CommitteeCard
+                name="Faculty Outreach"
+                head="Andrew Lake"
+                email="lake14@purdue.edu"
+                description="
+                The Faculty Outreach Committee of ECESS endeavors to
+                connect Purdue ECE students and faculty beyond the
+                classroom through fun and informative activities based
+                around the research areas of ECE.
+                "
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <CommitteeCard

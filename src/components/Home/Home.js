@@ -57,7 +57,6 @@ function Home() {
         </div>
           </Card.Body>
         </Card>
-
       </section>
   );
 }
