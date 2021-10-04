@@ -19,14 +19,20 @@ function BoardCard(props) {
                     </strong>
                 </Card.Text>
                 <Card.Text style={{ textAlign: "left" }}>
-                    Contact: {props.contact}
+                    Contact: <a href="mailto:{props.contact}"> {props.contact}</a>
                 </Card.Text>
-                <Card.Text style={{ textAlign: "left" }}>
-                    Major: {props.major}
-                </Card.Text>
-                <Card.Text style={{ textAlign: "left" }}>
-                    Hometown: {props.hometown}
-                </Card.Text>
+                {props.major ?
+                    <Card.Text style={{ textAlign: "left" }}>
+                        Major: {props.major}
+                    </Card.Text> : <></>
+                }
+
+                {props.hometown ?
+                    <Card.Text style={{ textAlign: "left" }}>
+                        Hometown: {props.hometown}
+                    </Card.Text> : <></>
+                }
+            
                 <Card.Text style={{ textAlign: "left" }}>
                     Favorite Class: {props.fav_class}
                 </Card.Text>

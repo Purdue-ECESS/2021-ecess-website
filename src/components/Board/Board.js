@@ -8,7 +8,7 @@ import Naveen from "../../Assets/BoardPics/Naveen_Vivek.jpeg";
 import Ryan from "../../Assets/BoardPics/Ryan_Villarreal.jpeg";
 import Altay from "../../Assets/BoardPics/Altay_Atik.jpeg";
 import Andrew from "../../Assets/BoardPics/Andrew_Lake.jpeg";
-import Sam from "../../Assets/BoardPics/Sam_Dlott.jpeg"
+import Jack from "../../Assets/BoardPics/Jack_Brewer.png"
 import Alexandra from "../../Assets/BoardPics/Alexandra_Sichterman.jpeg"
 import Amita from "../../Assets/BoardPics/Amita_Pandey.jpeg"
 import Denae from "../../Assets/BoardPics/Denae_Galloway.jpeg"
@@ -19,6 +19,7 @@ import Hope from "../../Assets/BoardPics/Hope_Post.png"
 import Claire from "../../Assets/BoardPics/Claire_Poukey.jpg" 
 import LeighAnn from "../../Assets/BoardPics/Leigh_Ann.png"
 import Giselle from "../../Assets/BoardPics/Giselle_Bender.png"
+import Akshaj from "../../Assets/BoardPics/Akshaj_Prasannakumar.png"
 
 function Board() {
   return (
@@ -81,71 +82,29 @@ function Board() {
 
             <Col md={4} className="project-card">
               <BoardCard
-                  imgPath={Alyssa}
-                  name="Alyssa DeLouise"
-                  title="Publicity - Chair"
-                  contact="adelouis@purdue.edu"
-                  major="EE, Fall 2022"
-                  hometown="Old Bridge, NJ"
-                  quote="Let courage carry you."
-                  fav_class="ECE 27000"
-                  linkedin="https://www.linkedin.com/in/alyssadelouise/"
+                  imgPath={Amita}
+                  name="Amita Pandey"
+                  title="Community Outreach - Chair"
+                  contact="pandey26@purdue.edu"
+                  major="CompE, Fall 2021"
+                  hometown="Fort Collins, CO"
+                  quote="I'm not lazy, I prefer to call it selective participation."
+                  fav_class="ECE 40400"
+                  linkedin="https://www.linkedin.com/in/amita-pandey/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <BoardCard
-                  imgPath={Naveen}
-                  name="Naveen Vivek"
-                  title="Website Development - Chair"
-                  contact="vivek@purdue.edu"
-                  major="EE, Spring 2022"
-                  hometown="Chennai, India"
-                  quote="Quotes are overrated."
-                  fav_class="ECE 27000"
-                  linkedin="http://linkedin.com/in/naveen-vivek/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <BoardCard
-                  imgPath={Andrew}
-                  name="Andrew Lake"
-                  title="Faculty Outreach - Chair"
-                  contact="lake14@purdue.edu"
-                  major="EE, Spring 2022"
-                  hometown="Flint, Michigan"
-                  quote="Don't force it, just get a bigger hammer."
-                  fav_class="ECE 30500"
-                  linkedin="https://www.linkedin.com/in/andrewlake2000/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <BoardCard
-                  imgPath={Altay}
-                  name="Altay Atik"
-                  title="Spark Challenge - Chair"
-                  contact="aatik@purdue.edu"
-                  major="EE, Spring 2023"
-                  hometown="Istanbul, Turkey"
-                  quote="Simple can be harder than complex."
-                  fav_class="ECE 27000"
-                  linkedin="https://www.linkedin.com/in/altayaskinatik/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <BoardCard
-                  imgPath={Sam}
-                  name="Sam Dlott"
-                  title="Social Committee - Chair"
-                  contact="sdlott@purdue.edu"
-                  major="CompE, Spring 2023"
-                  hometown="Plano, TX"
-                  quote="Always ready to give it 100%."
-                  fav_class="ECE 20875"
-                  linkedin="https://www.linkedin.com/in/sdlott/"
+                  imgPath={Akshaj}
+                  name="Akshaj Prasannakumar"
+                  title="Community Outreach - Co-Chair"
+                  contact="aprasan@purdue.edu"
+                  major="CompE, Spring 2022"
+                  hometown="Aurora, IL"
+                  quote="Do or do not. There is no try. - Yoda"
+                  fav_class="ECE 33700"
+                  linkedin="https://www.linkedin.com/in/akshaj-prasannakumar-733704176/"
               />
             </Col>
 
@@ -162,46 +121,18 @@ function Board() {
                   linkedin="https://www.linkedin.com/in/sara-hui-purdue/"
               />
             </Col>
-  
-            <Col md={4} className="project-card">
-              <BoardCard
-                  imgPath={Amita}
-                  name="Amita Pandey"
-                  title="Community Outreach - Chair"
-                  contact="pandey26@purdue.edu"
-                  major="CompE, Fall 2021"
-                  hometown="Fort Collins, CO"
-                  quote="I'm not lazy, I prefer to call it selective participation."
-                  fav_class="ECE 40400"
-                  linkedin="https://www.linkedin.com/in/amita-pandey/"
-              />
-            </Col>
 
             <Col md={4} className="project-card">
               <BoardCard
-                  imgPath={Sam2}
-                  name="Samantha Unger"
-                  title="WECE - Chair"
-                  contact="unger12@purdue.edu"
-                  major="CompE, Spring 2022"
-                  hometown="Jacksonville, FL"
-                  quote="Shoot for the moon and if you miss you’ll end up amongst the stars!"
-                  fav_class="ECE 36200"
-                  linkedin="https://www.linkedin.com/in/samantha-unger12/"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <BoardCard
-                  imgPath={Hope}
-                  name="Hope Post"
-                  title="WECE - Co-chair"
-                  contact="posth@purdue.edu"
-                  major="CompE, Spring 2023"
-                  hometown="Westford, MA"
-                  quote="Ask for what you want and be prepared to get it. - Maya Angelou"
-                  fav_class="ECE 20875"
-                  linkedin="https://www.linkedin.com/in/hope-post/"
+                  imgPath={Andrew}
+                  name="Andrew Lake"
+                  title="Faculty Outreach - Chair"
+                  contact="lake14@purdue.edu"
+                  major="EE, Spring 2022"
+                  hometown="Flint, Michigan"
+                  quote="Don't force it, just get a bigger hammer."
+                  fav_class="ECE 30500"
+                  linkedin="https://www.linkedin.com/in/andrewlake2000/"
               />
             </Col>
 
@@ -235,10 +166,92 @@ function Board() {
 
             <Col md={4} className="project-card">
               <BoardCard
+                  imgPath={Alyssa}
+                  name="Alyssa DeLouise"
+                  title="Publicity - Chair"
+                  contact="adelouis@purdue.edu"
+                  major="EE, Fall 2022"
+                  hometown="Old Bridge, NJ"
+                  quote="Let courage carry you."
+                  fav_class="ECE 27000"
+                  linkedin="https://www.linkedin.com/in/alyssadelouise/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Jack}
+                  name="Jack Brewer"
+                  title="Social Committee - Chair"
+                  contact="brewe116@purdue.edu"
+                  major="CompE, Spring 2024"
+                  hometown="St. Louis, MO"
+                  quote="Always Max Jump"
+                  fav_class="ECE 26400"
+                  linkedin="https://linkedin.com/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Altay}
+                  name="Altay Atik"
+                  title="Spark Challenge - Chair"
+                  contact="aatik@purdue.edu"
+                  major="EE, Spring 2023"
+                  quote="Simple can be harder than complex."
+                  fav_class="ECE 27000"
+                  linkedin="https://www.linkedin.com/in/altayaskinatik/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Naveen}
+                  name="Naveen Vivek"
+                  title="Website Development - Chair"
+                  contact="vivek@purdue.edu"
+                  major="EE, Spring 2022"
+                  hometown="Chennai, India"
+                  quote="Quotes are overrated."
+                  fav_class="ECE 27000"
+                  linkedin="http://linkedin.com/in/naveen-vivek/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Sam2}
+                  name="Samantha Unger"
+                  title="WECE - Chair"
+                  contact="unger12@purdue.edu"
+                  major="CompE, Spring 2022"
+                  hometown="Jacksonville, FL"
+                  quote="Shoot for the moon and if you miss you’ll end up amongst the stars!"
+                  fav_class="ECE 36200"
+                  linkedin="https://www.linkedin.com/in/samantha-unger12/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
+                  imgPath={Hope}
+                  name="Hope Post"
+                  title="WECE - Co-chair"
+                  contact="posth@purdue.edu"
+                  major="CompE, Spring 2023"
+                  hometown="Westford, MA"
+                  quote="Ask for what you want and be prepared to get it. - Maya Angelou"
+                  fav_class="ECE 20875"
+                  linkedin="https://www.linkedin.com/in/hope-post/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <BoardCard
                   imgPath={LeighAnn}
                   name="Leigh Ann Fabries"
                   title="ECESS Advisor"
-                  major="Advising!"
                   contact="lpittsfo@purdue.edu"
                   hometown="Middletown, IN"
                   quote="You change the world when you change your mind"
@@ -252,7 +265,6 @@ function Board() {
                   imgPath={Giselle}
                   name="Giselle Salina-Bender"
                   title="ECESS Advisor"
-                  major="Advising!"
                   contact="gsalina@purdue.edu"
                   hometown="San Juan, PR"
                   quote="For there is ALWAYS light, if only we are brave enough to see it, 
