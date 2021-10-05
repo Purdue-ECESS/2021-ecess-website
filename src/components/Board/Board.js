@@ -6,8 +6,8 @@ import Particle from "../Particle";
 import Alyssa from "../../Assets/BoardPics/Alyssa_DeLouise.jpeg";
 import Naveen from "../../Assets/BoardPics/Naveen_Vivek.jpeg";
 import Ryan from "../../Assets/BoardPics/Ryan_Villarreal.jpeg";
-import Altay from "../../Assets/BoardPics/Altay_Atik.jpeg";
-import Andrew from "../../Assets/BoardPics/Andrew_Lake.jpeg";
+import Altay from "../../Assets/BoardPics/Altay_Atik.png";
+import Andrew from "../../Assets/BoardPics/Andrew_Lake.png";
 import Jack from "../../Assets/BoardPics/Jack_Brewer.png"
 import Alexandra from "../../Assets/BoardPics/Alexandra_Sichterman.jpeg"
 import Amita from "../../Assets/BoardPics/Amita_Pandey.jpeg"
