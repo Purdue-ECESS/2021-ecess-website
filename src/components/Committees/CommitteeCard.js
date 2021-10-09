@@ -18,8 +18,8 @@ import { FaHandHoldingHeart, FaCodeBranch } from "react-icons/fa"
 import { BsFillLightningChargeFill } from "react-icons/bs"
 
 function CommitteeCard(props) {
+    
     // var logo;
-
     // switch(props.name) {
     // case "Faculty Outreach"      : logo = <GiTeacher size={100} style={{ color: "#cfb991" }}/>; break;
     // case "Community Outreach"    : logo = <GiPublicSpeaker size={100} style={{ color: "#cfb991" }}/>; break;
@@ -38,7 +38,7 @@ function CommitteeCard(props) {
             <Card.Body>
 
             {/* {logo} */}
-            <br/> <br/>
+            {/* <br/> <br/> */}
 
                 <Card.Title>
                     <strong className="yellow">
