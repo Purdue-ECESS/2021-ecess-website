@@ -18,28 +18,27 @@ import { FaHandHoldingHeart, FaCodeBranch } from "react-icons/fa"
 import { BsFillLightningChargeFill } from "react-icons/bs"
 
 function CommitteeCard(props) {
-    var logo;
-
-    switch(props.name) {
-    case "Faculty Outreach"      : logo = <GiTeacher size={100} />; break;
-    case "Community Outreach"    : logo = <GiPublicSpeaker size={100} />; break;
-    case "ECE Ambassadors"       : logo = <GiShakingHands size={100} />; break;
-    case "Multicultural Affairs" : logo = <FaHandHoldingHeart size={100} />; break;
-    case "Publicity"             : logo = <AiFillInstagram size={100} />; break;
-    case "Social"                : logo = <GiThreeFriends size={100} />; break;
-    case "Spark Challenge"       : logo = <BsFillLightningChargeFill size={100} />; break;
-    case "Website Development"   : logo = <FaCodeBranch size={100} />; break;
-    case "Women in ECE"          : logo = <ImWoman size={100} />; break;
-    default: logo = <AiFillGithub size={100} />; break;
-    }
+    
+    // var logo;
+    // switch(props.name) {
+    // case "Faculty Outreach"      : logo = <GiTeacher size={100} style={{ color: "#cfb991" }}/>; break;
+    // case "Community Outreach"    : logo = <GiPublicSpeaker size={100} style={{ color: "#cfb991" }}/>; break;
+    // case "ECE Ambassadors"       : logo = <GiShakingHands size={100} style={{ color: "#cfb991" }}/>; break;
+    // case "Multicultural Affairs" : logo = <FaHandHoldingHeart size={100} style={{ color: "#cfb991" }}/>; break;
+    // case "Publicity"             : logo = <AiFillInstagram size={100} style={{ color: "#cfb991" }}/>; break;
+    // case "Social"                : logo = <GiThreeFriends size={100} style={{ color: "#cfb991" }}/>; break;
+    // case "Spark Challenge"       : logo = <BsFillLightningChargeFill size={100} style={{ color: "#cfb991" }}/>; break;
+    // case "Website Development"   : logo = <FaCodeBranch size={100} style={{ color: "#cfb991" }}/>; break;
+    // case "Women in ECE"          : logo = <ImWoman size={100} style={{ color: "#cfb991" }}/>; break;
+    // default: logo = <AiFillGithub size={100} />; break;
+    // }
 
     return (
         <Card className="project-card-view">
             <Card.Body>
 
-            <a style={{ color: "#cfb991" }}>
-            {logo}
-            </a> <br/> <br/>
+            {/* {logo} */}
+            {/* <br/> <br/> */}
 
                 <Card.Title>
                     <strong className="yellow">
